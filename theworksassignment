@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/0608aa884a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.3.0/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="container">
+            <div class="row">
+                <div class="nav-container col-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark d-lg-none">
+                        <a class="navbar-brand" href="#">Portfolio</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ml-auto">
+                                <a class="nav-link active" href="#profile">Profile <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#work">Work</a>
+                                <a class="nav-link" href="#skillsandawards">Skills and Awards</a>
+                                <a class="nav-link" href="#interests">Interests</a>
+                                <a class="nav-link" href="#education">Education</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="d-none d-lg-block">
+                    <div class="portfolio-container">
+                        <div class="text-center">
+                            <img class="image" src="https://www.ncdd.com/images/default-profile.jpg?r=7191" alt="image" />
+                        </div>
+                        <a class="navbar-brand title" href="#">Portfolio</a>
+                        <a class="nav-link active" href="#profile">Profile</a>
+                        <a class="nav-link" href="#work">Work</a>
+                        <a class="nav-link" href="#skillsandawards">Skills and Awards</a>
+                        <a class="nav-link" href="#interests">Interests</a>
+                        <a class="nav-link" href="#education">Education</a>
+                    </div>
+                </div>
+                <div class="portfolio-details">
+                    <div class="col-12" id="profile">
+                        <div class="icon-container">
+                            <i class="fa-regular fa-circle-user icon" style="font-size:80px;"></i>
+                            <h6 class="heading">PROFILE</h6>
+                        </div>
+                        <div>
+                            <h1 class="name">CAROLINE THOMPSON</h1>
+                            <p style="text-decoration:underline;">ART DIRECTOR</p>
+                        </div>
+                        <div class="profile-text-container">
+                            <div>
+                                <p>Advertising campaigns are my forte.</p>
+                                <p>I have been in the industry for 6 years.</p>
+                            </div>
+                            <div>
+                                <p><span>Address: </span>Los Angeles, California</p>
+                                <p><span>Phone: </span> +(87) 834 2934 2344</p>
+                                <p><span>Website: </span>carolinethompson.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="col-12" id="work">
+                        <div class="icon-container">
+                            <div class="circle">
+                                <i class="fa-solid fa-toolbox icon"></i>
+                            </div>
+                            <h6 class="heading">WORK</h6>
+                        </div>
+                        <div class="d-flex flex-row mb-3">
+                            <p class="mr-4">2022 - 2023</p>
+                            <div>
+                                <p class="para"> Creative Minds Graphic Design Studio California * Senior Art Director</p>
+                                <p>Generating and developing ideas to present to the cilent</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row mb-3">
+                            <p class="mr-4">2021 - 2022</p>
+                            <div>
+                                <p class="para"> Mega Giants Publishing and Studio * Junior Art Director</p>
+                                <p>Working on designs to produce an effective advertising campaign</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row mb-3">
+                            <p class="mr-4">2020 - 2021</p>
+                            <div>
+                                <p class="para"> Big Ideas Inc * Assistant Art Director</p>
+                                <p>Commissioning specialists,such as artists, to work on projects</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="col-12" id="skillsandawards">
+                        <div class="icon-container">
+                            <div class="circle">
+                                <i class="fas fa-clipboard-list icon"></i>
+                            </div>
+                            <h6 class="heading">SKILLS & AWARDS</h6>
+                        </div>
+                        <div class="skill-Award-details">
+                            <div>
+                                <div class="skillaward-details">
+                                    <p class="col-4">UI/UX</p>
+                                    <div class="col-8 d-flex flex-row justify-content-start mb-4">
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                    </div>
+                                </div>
+                                <div class="skillaward-details">
+                                    <p class="col-4">Growth Marketing</p>
+                                    <div class="col-8 d-flex flex-row justify-content-start mb-4">
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                    </div>
+                                </div>
+                                <div class="skillaward-details">
+                                    <p class="col-4">Typography</p>
+                                    <div class="col-8 d-flex flex-row justify-content-start mb-4">
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                    </div>
+                                </div>
+                                <div class="skillaward-details">
+                                    <p class="col-4">Video Production</p>
+                                    <div class="col-8 d-flex flex-row justify-content-start mb-4">
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                    </div>
+                                </div>
+                                <div class="skillaward-details">
+                                    <p class="col-4">Print Design</p>
+                                    <div class=" col-8 d-flex flex-row justify-content-start mb-4">
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                        <i class="fas fa-circle dot-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="skillaward-details">
+                                    <p class="mr-4">2019</p>
+                                    <div>
+                                        <p class="para">Suiton Design Awards</p>
+                                        <p>10 Graphic Designer</p>
+                                    </div>
+                                </div>
+                                <div class="skillaward-details">
+                                    <p class="mr-4">2019</p>
+                                    <div>
+                                        <p class="para">Graphic London Award</p>
+                                        <p>Winning Entry: Poster Design</p>
+                                    </div>
+                                </div>
+                                <div class="skillaward-details">
+                                    <p class="mr-4">2019</p>
+                                    <div>
+                                        <p class="para">LA Creatives Award</p>
+                                        <p>Winning Entry: Ad Campaign</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="col-12" id="interests">
+                        <div class="icon-container">
+                            <div class="circle">
+                                <i class="fa-solid fa-lightbulb icon"></i>
+                            </div>
+                            <h6 class="heading">INTERESTS</h6>
+                        </div>
+                        <div class="interests">
+                            <div>
+                                <i class="fa-solid fa-display icon"></i>
+                                <p>Internet</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-pencil icon"></i>
+                                <p>Sketching</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-laptop icon"></i>
+                                <p>Movies</p>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-microphone-lines icon"></i>
+                                <p>Music</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="col-12" id="education">
+                        <div class="icon-container">
+                            <div class="circle">
+                                <i class="fa-solid fa-book-open icon"></i>
+                            </div>
+                            <h6 class="heading">EDUCATION</h6>
+                        </div>
+                        <div>
+                            <div class="d-flex flex-row mb-3">
+                                <p class="mr-4">2016 - 2020</p>
+                                <div>
+                                    <p class="para"> Alabama College of Design and Technology * Cum Laude</p>
+                                    <p>Bachelor of Fine Arts Major in Advertising.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row mb-3">
+                                <p class="mr-4">2013 - 2016</p>
+                                <div>
+                                    <p class="para"> Helena All Girls Senior High School * Valedictorian</p>
+                                    <p>President of Art and Design Club.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+css code
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.bg-container {
+    background-color: #fadeeb;
+    overflow-y: scroll;
+}
+
+.nav-container {
+    background-image: linear-gradient(to right, purple, #fc0356, #fc03fc, blue);
+    width: 100vw;
+    border: solid pink 3px;
+}
+
+a {
+    color: #ffffff !important;
+    font-family: "Georgia";
+}
+
+.portfolio-container {
+    background-image: linear-gradient(purple, #fc0356, #fc03fc, blue);
+    border: solid pink 3px;
+    padding: 20px;
+    height: 100%;
+    width: 30vw;
+}
+
+@media (min-width: 992px) {
+    a {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .title {
+        font-size: 50px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.dot-icon {
+    font-size: 16px;
+    margin-right: 15px;
+    padding-top: 5px;
+}
+
+.circle {
+    border: solid black 6px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.icon-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.list {
+    list-style-type: none;
+}
+
+span,
+.para {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.profile-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.skillaward-details {
+    display: flex;
+}
+
+@media (min-width: 992px) {
+    .skill-Award-details {
+        display: flex;
+    }
+}
+
+.interests {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    width: auto;
+    border: solid black 1px;
+    background-color: black;
+}
